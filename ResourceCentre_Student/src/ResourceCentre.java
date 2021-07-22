@@ -243,18 +243,15 @@ public class ResourceCentre {
 	
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		// write your code here
-<<<<<<< HEAD
-	
-		
-=======
 		ResourceCentre.viewAllChromebook(chromebookList);
 		String tag = Helper.readString("Enter asset tag > ");
 		String due = Helper.readString("Enter due date > ");
 		Boolean isLoaned = doLoanChromebook(chromebookList, tag, due);
 		if (isLoaned == false) {
-			
+			System.out.println("Invalid asset tag");
+		} else {
+			System.out.println("Chromebook " + tag + " loaned out");
 		}
->>>>>>> branch 'master' of https://github.com/LimKaJun/resource_centre_student
 	}
 	
 	//================================= Option 4 Return an item (CRUD - Update)=================================
@@ -291,6 +288,7 @@ public class ResourceCentre {
 	}
 	
 	public static void returnChromebook(ArrayList<Chromebook> chromebookList) {
-		// write your code here
+		// write your code hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+	
 	}
 }
