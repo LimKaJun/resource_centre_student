@@ -226,7 +226,7 @@ public class ResourceCentre {
 	}
 	public static void loanChromebook(ArrayList<Chromebook> chromebookList) {
 		// write your code here
-		
+	
 		
 	}
 	
@@ -264,8 +264,7 @@ public class ResourceCentre {
 		return isReturned;
 	}
 	public static void returnChromebook(ArrayList<Chromebook> chromebookList) {
-		// write your code hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-	
+		// write your code here
 	}
 
 
